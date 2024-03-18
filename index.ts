@@ -8,6 +8,8 @@ try {
       content: message,
     },
   });
+  console.log("🍻 Successfully sent message to channel!");
 } catch (error) {
   console.error(error);
+  console.log("🍻 Failed to send message to channel!");
 }
